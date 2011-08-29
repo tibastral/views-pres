@@ -111,6 +111,30 @@ Grâce à rails 3.1, on va pouvoir :
 
 !SLIDE
 
-## Un petit truc agréable, c'est le mixin golden-ration.
+## Un petit truc agréable dans *Bourbon*, c'est le mixin golden-ration.
 
 * C'est pas grand chose, mais ça permet de faire des designs calqués sur le nombre d'or (1 + racine(5)) / 2
+![Nombre Dor](../images/nombre-dor.png)
+
+!SLIDE
+
+## Bonus : Modernizr (polyfills) & Yepnope
+
+### Cas concret : mon client veut des placeholders compatibles ie7
+
+* Modernizr permet de détecter la présence de l'implémentation des placoholders.
+* Yepnope.js me permet de loader uniquement dans le cas où l'implémentation n'est pas présente un polyfill
+* Voici une liste des polyfills proposés par modernizr (https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+* Ainsi, plus d'excuse pour faire du html5 + css3
+
+!SLIDE
+
+## Conclusion
+
+!SLIDE
+
+# Merci !
+
+!SLIDE
+
+#
