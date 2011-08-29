@@ -123,9 +123,17 @@ Grâce à rails 3.1, on va pouvoir :
 ### Cas concret : mon client veut des placeholders compatibles ie7
 
 * Modernizr permet de détecter la présence de l'implémentation des placoholders.
-* Yepnope.js me permet de loader uniquement dans le cas où l'implémentation n'est pas présente un polyfill
-* Voici une liste des polyfills proposés par modernizr (https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
-* Ainsi, plus d'excuse pour faire du html5 + css3
+* Yepnope.js me permet de loader un polyfill uniquement dans le cas où l'implémentation du placeholder n'est pas présente
+* Je choisi un polyfill qui fonctionne bien, et je le charge
+
+![Placeholder](../images/placeholder.png)
+
+
+!SLIDE
+
+* Voici une liste des polyfills proposés par modernizr ([https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills))
+* Ainsi, plus d'excuse, on peut faire AUJOURD'HUI du html5 + css3
+* Si vous voulez pouvoir utiliser les nouveaux éléments html sur IE, n'oubliez pas html5.js ([http://remysharp.com/downloads/html5.js](http://remysharp.com/downloads/html5.js))
 
 !SLIDE
 
