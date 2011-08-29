@@ -11,7 +11,7 @@ To view it :
 Simply type
 
     $ bundle install
-    $ rake
+    $ bundle exec rake
 
 
 ---
