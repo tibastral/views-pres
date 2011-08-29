@@ -116,16 +116,21 @@ Grâce à rails 3.1, on va pouvoir :
 * C'est pas grand chose, mais ça permet de faire des designs calqués sur le nombre d'or (1 + racine(5)) / 2
 ![Nombre Dor](../images/nombre-dor.png)
 
+
 !SLIDE
 
-## Bonus : Modernizr (polyfills) & Yepnope
+## Cas concret : mon client veut des placeholders compatibles ie7
 
-### Cas concret : mon client veut des placeholders compatibles ie7
+![Ie7](../images/ie7.png)
+
+!SLIDE
+
+## Solution : Modernizr (polyfills) & Yepnope
+
 
 * Modernizr permet de détecter la présence de l'implémentation des placoholders.
-* Yepnope.js me permet de loader un polyfill uniquement dans le cas où l'implémentation du placeholder n'est pas présente
+* Yepnope.js me permet de loader un polyfill (mastic pour mur) uniquement dans le cas où l'implémentation du placeholder n'est pas présente
 * Je choisi un polyfill qui fonctionne bien, et je le charge
-
 ![Placeholder](../images/placeholder.png)
 
 
@@ -139,10 +144,23 @@ Grâce à rails 3.1, on va pouvoir :
 
 ## Conclusion
 
+* Rails 3.1 est presque plus réveolutionnaire que rails 3.0, il sort aujourd'hui (normalement ;))
+* Avec Sass, Compass (core + blueprint), Bourbon, et les Polyfills, tout devient possible (même sur IE)
+* Tout cela va nous permettre une agilité / maintenabilité / réutilisibilité encore plus grande !
+
 !SLIDE
 
-# Merci !
+# Merci d'être venus !
+![Parisrb](../images/parisrb.jpeg)
+
+##twitter.com/tibastral
 
 !SLIDE
 
-#
+# Questions ?
+
+!SLIDE
+
+n'hésitez pas à me mailer, je réponds :
+
+[thibaut@milesrock.com](mailto:thibaut@milesrock.com)
